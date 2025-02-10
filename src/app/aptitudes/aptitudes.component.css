@@ -1,0 +1,25 @@
+/* Personalización de las tarjetas en la sección de proyectos */
+
+.card {
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .full-text {
+  display: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.card:hover .short-text {
+  display: none;
+}
+
+.card:hover .full-text {
+  display: block;
+  opacity: 1;
+}

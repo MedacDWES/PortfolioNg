@@ -1,0 +1,9 @@
+.hola {
+  filter: blur(1.5px);
+  transition: filter 1s ease;
+}
+
+.hola:hover {
+  filter: blur(0px);
+  transition: filter 1s ease;
+}

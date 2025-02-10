@@ -1,0 +1,16 @@
+footer {
+  background-color: #343a40;
+}
+
+.enlace {
+  color: #fff;
+  text-decoration: none;
+  margin: 2px;
+}
+
+.enlace:hover {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}

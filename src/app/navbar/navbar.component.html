@@ -1,0 +1,33 @@
+<!-- Barra de Navegación -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a [routerLink]="['aptitudes']" class="navbar-brand">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a [routerLink]="['aptitudes']" routerLinkActive="active" class="nav-link">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['aptitudes2']" routerLinkActive="active" class="nav-link">Aptitudes</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['contacto']" class="nav-link">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Sección de inicio -->
+
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4" id="titulo">¡Hola, soy Carlos!</h1>
+    <p class="lead" id="titulo1">Desarrollador y diseñador web</p>
+  </div>
+</header>

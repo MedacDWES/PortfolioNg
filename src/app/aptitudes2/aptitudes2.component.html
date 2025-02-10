@@ -1,0 +1,139 @@
+<!-- Sección de Aptitudes -->
+
+<!-- Sección de Aptitudes -->
+<section id="aptitudes" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center">Aptitudes</h2>
+      <div class="row mb-5 justify-content-center">
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/java.jpg" alt="Java" class="img-fluid rounded float-start" id="java">
+          </div>
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">Tengo experiencia en Java, desarrollando aplicaciones robustas y orientadas a objetos. Conozco el uso de frameworks como Spring y manejo conceptos clave como la concurrencia y el procesamiento asíncrono, lo que me permite crear aplicaciones eficientes y escalables.</p>
+              <p class="d-none d-md-block d-xl-none hola">Tengo experiencia en Java, desarrollando aplicaciones robustas y orientadas a objetos. Conozco el uso de frameworks como Spring y manejo conceptos clave como la concurrencia y el procesamiento asíncrono, lo que me permite crear aplicaciones eficientes y escalables.</p>
+              <p class="d-sm-block d-md-none hola">
+                  Tengo experiencia en Java, desarrollando aplicaciones robustas y orientadas a objetos. Conozco el
+                  <a *ngIf="!expandedSections['java']" (click)="toggleSection('java')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['java']">
+                      uso de frameworks como Spring y manejo conceptos clave como la concurrencia y el procesamiento asíncrono, lo que me permite crear aplicaciones eficientes y escalables
+                      <a (click)="toggleSection('java')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+      </div>
+
+      <div class="row mb-5 justify-content-center">
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">Soy competente en HTML, desarrollando estructuras web semánticas y optimizadas para SEO. Conozco las mejores prácticas para la accesibilidad web y el rendimiento, lo cual me permite crear sitios bien estructurados y fáciles de mantener.</p>
+              <p class="d-none d-md-block d-xl-none hola">Soy competente en HTML, desarrollando estructuras web semánticas y optimizadas para SEO. Conozco las mejores prácticas para la accesibilidad web y el rendimiento, lo cual me permite crear sitios bien estructurados y fáciles de mantener.</p>
+              <p class="d-sm-block d-md-none hola">
+                  Soy competente en HTML, desarrollando estructuras web semánticas y optimizadas para SEO. Conozco las mejores prácticas para
+                  <a *ngIf="!expandedSections['html']" (click)="toggleSection('html')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['html']">
+                      la accesibilidad web y el rendimiento, lo cual me permite crear sitios bien estructurados y fáciles de mantener.
+                      <a (click)="toggleSection('html')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/html.jpg" alt="Java" class="img-fluid rounded float-end" id="html">
+          </div>
+      </div>
+
+      <div class="row mb-5 justify-content-center">
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/mysql.jpg" alt="Java" class="img-fluid rounded float-start" id="mysql">
+          </div>
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">Cuento con habilidades en MySQL, desarrollando y optimizando bases de datos relacionales para asegurar la integridad y rapidez en la gestión de datos. Me especializo en consultas complejas, diseño de esquemas eficientes y he trabajado con procedimientos almacenados y triggers.</p>
+              <p class="d-none d-md-block d-xl-none hola">Cuento con habilidades en MySQL, desarrollando y optimizando bases de datos relacionales para asegurar la integridad y rapidez en la gestión de datos. Me especializo en consultas complejas, diseño de esquemas eficientes y he trabajado con procedimientos almacenados y triggers.</p>
+              <p class="d-sm-block d-md-none hola">
+                  Cuento con habilidades en MySQL, desarrollando y optimizando bases de datos relacionales para asegurar la integridad y rapidez en la
+                  <a *ngIf="!expandedSections['mysql']" (click)="toggleSection('mysql')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['mysql']">
+                      gestión de datos. Me especializo en consultas complejas, diseño de esquemas eficientes y he trabajado con procedimientos almacenados y triggers.
+                      <a (click)="toggleSection('mysql')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+      </div>
+
+      <div class="row mb-5 justify-content-center">
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">Mis habilidades en PHP me permiten desarrollar aplicaciones y funcionalidades personalizadas para web. He trabajado con frameworks como Laravel y CodeIgniter, lo que me da versatilidad para proyectos que requieren una arquitectura MVC sólida y escalable.</p>
+              <p class="d-none d-md-block d-xl-none hola">Mis habilidades en PHP me permiten desarrollar aplicaciones y funcionalidades personalizadas para web. He trabajado con frameworks como Laravel y CodeIgniter, lo que me da versatilidad para proyectos que requieren una arquitectura MVC sólida y escalable.</p>
+              <p class="d-sm-block d-md-none hola">
+                  Mis habilidades en PHP me permiten desarrollar aplicaciones y funcionalidades personalizadas para web. He trabajado con frameworks
+                  <a *ngIf="!expandedSections['php']" (click)="toggleSection('php')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['php']">
+                      como Laravel y CodeIgniter, lo que me da versatilidad para proyectos que requieren una arquitectura MVC sólida y escalable.
+                      <a (click)="toggleSection('php')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/php.jpg" alt="Java" class="img-fluid rounded float-start" id="php">
+          </div>
+      </div>
+
+      <div class="row mb-5 justify-content-center">
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/py.jpg" alt="Java" class="img-fluid rounded float-start" id="py">
+          </div>
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">Poseo experiencia en Python, desarrollando scripts y aplicaciones tanto en el ámbito del desarrollo web como en el de análisis de datos. Estoy familiarizado con librerías como Django y Flask, y tengo conocimientos en manipulación de datos con Pandas y NumPy.</p>
+              <p class="d-none d-md-block d-xl-none hola">Poseo experiencia en Python, desarrollando scripts y aplicaciones tanto en el ámbito del desarrollo web como en el de análisis de datos. Estoy familiarizado con librerías como Django y Flask, y tengo conocimientos en manipulación de datos con Pandas y NumPy.</p>
+              <p class="d-sm-block d-md-none hola">
+                  Poseo experiencia en Python, desarrollando scripts y aplicaciones tanto en el ámbito del desarrollo web como en el de análisis de datos. Estoy familiarizado con librerías
+                  <a *ngIf="!expandedSections['python']" (click)="toggleSection('python')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['python']">
+                      como Django y Flask, y tengo conocimientos en manipulación de datos con Pandas y NumPy.
+                      <a (click)="toggleSection('python')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+      </div>
+
+      <div class="row justify-content-center">
+          <div class="col-sm-9 col-md-7 col-xl-6">
+              <p class="d-none d-xl-block hola">He trabajado en la creación y personalización de sitios en WordPress, utilizando tanto temas preexistentes como desarrollando soluciones personalizadas. Además, tengo experiencia en el uso de plugins y en la creación de funcionalidades específicas mediante código.</p>
+              <p class="d-none d-md-block d-xl-none hola">He trabajado en la creación y personalización de sitios en WordPress, utilizando tanto temas preexistentes como desarrollando soluciones personalizadas. Además, tengo experiencia en el uso de plugins y en la creación de funcionalidades específicas mediante código.</p>
+              <p class="d-sm-block d-md-none hola">
+                  He trabajado en la creación y personalización de sitios en WordPress, utilizando tanto temas preexistentes como desarrollando soluciones personalizadas. Además, tengo
+                  <a *ngIf="!expandedSections['wp']" (click)="toggleSection('wp')" class="leer-mas">
+                      Leer más...
+                  </a>
+                  <span *ngIf="expandedSections['wp']">
+                      experiencia en el uso de plugins y en la creación de funcionalidades específicas mediante código.
+                      <a (click)="toggleSection('wp')" class="leer-menos">
+                          Leer menos
+                      </a>
+                  </span>
+              </p>
+          </div>
+          <div class="col-sm-3 col-md-3 col-xl-3">
+              <img src="img/wordpres.jpg" alt="Java" class="img-fluid rounded float-start" id="wp">
+          </div>
+      </div>
+  </div>
+</section>
