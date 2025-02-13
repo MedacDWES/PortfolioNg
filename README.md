@@ -1,59 +1,59 @@
-# Portfolio
+Proyecto Angular con Bootstrap
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Este es un proyecto desarrollado con Angular, utilizando HTML, CSS, JavaScript y Bootstrap para la creación de una interfaz moderna y responsiva.
 
-## Development server
+📌 Tecnologías utilizadas
 
-To start a local development server, run:
+Angular: Framework para la construcción de aplicaciones web.
 
-```bash
+HTML5: Lenguaje de marcado para la estructura de la aplicación.
+
+CSS3: Estilos para mejorar la apariencia de la aplicación.
+
+JavaScript: Funcionalidad dinámica en la aplicación.
+
+Bootstrap: Framework de diseño para mejorar la responsividad.
+
+🚀 Instalación y ejecución
+
+Clonar el repositorio
+
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+
+Instalar dependencias
+
+npm install
+
+Ejecutar el servidor de desarrollo
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Luego, abre tu navegador en http://localhost:4200/.
 
-## Code scaffolding
+📂 Estructura del proyecto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+├── src
+│   ├── app/                 # Componentes y módulos de Angular
+│   ├── assets/              # Archivos estáticos (imágenes, estilos, etc.)
+│   ├── environments/        # Configuración de entornos
+│   ├── index.html           # Archivo principal HTML
+│   ├── main.ts              # Punto de entrada de la aplicación
+│   └── styles.css           # Estilos globales
+├── angular.json             # Configuración de Angular
+├── package.json             # Dependencias y scripts
+├── README.md                # Documentación del proyecto
+└── ...
 
-```bash
-ng generate component component-name
-```
+✨ Características
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Diseño responsivo con Bootstrap.
 
-```bash
-ng generate --help
-```
+Componentes modulares en Angular.
 
-## Building
+Interactividad con JavaScript.
 
-To build the project run:
+📜 Licencia
 
-```bash
-ng build
-```
+Este proyecto está bajo la licencia MIT.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
